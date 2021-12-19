@@ -1,0 +1,59 @@
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+
+
+body {
+/* more on this crazy alphanumerical value in a minute! */
+color: #39a6b2;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+
+header {
+    padding: 10px 35px;
+    background-color: rgb(11, 135, 184);
+}
+
+header h1 { 
+    font-weight: bold;
+    font-size: x-large;
+    color: crimson;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: rgb(192, 11, 11);
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(192, 11, 11);
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+display: inline;
+}
+
+header nav ul li {
+    margin: 0 38px;
+    font-weight: lighter;
+     font-size: 22px;
+}
+
+footer {
+    background-color: seashell;
+    width: 100px;
+    padding: 40px 35px;
+}
